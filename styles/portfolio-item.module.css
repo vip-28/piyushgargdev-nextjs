@@ -8,6 +8,12 @@
   position: relative;
 }
 
+.portfolio__item:hover{
+  background: #242e4e;
+  transition: 1s;
+
+}
+
 .portfolio__item div {
   background: transparent;
 }

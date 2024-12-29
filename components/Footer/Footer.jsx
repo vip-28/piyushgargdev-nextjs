@@ -13,8 +13,8 @@ const Footer = () => {
       <Container>
         <Row>
           <Col lg="12">
-            <div className={`${classes.footer__copyright}`}>
-              <p>
+            <div className={`flex justify-center`}>
+              <p className="hover:text-blue-500 duration-500 hover:text-lg ">
                 &copy; Copyright {year} - Developed by Piyush Garg. All right
                 reserved.
               </p>
